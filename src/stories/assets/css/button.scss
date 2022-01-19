@@ -1,0 +1,90 @@
+button:disabled {
+  color: #9E9E9E;
+}
+
+.button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  background: #e0e0e0;
+}
+
+.button--primary {
+  color: white;
+  background-color: #2962ff;
+
+  &:hover,
+  &:focus {
+    background: #0039cb;
+  }
+}
+.button--secondary {
+  color: white;
+  background: #455a64;
+
+  &:hover,
+  &:focus {
+    background: #1c313a;
+  }
+}
+
+.button--danger {
+  color: white;
+  background: #d32f2f;
+
+  &:hover,
+  &:focus {
+    background: #9a0007;
+  }
+}
+
+.button--default {
+  color: #3f3f3f;
+  background: #e0e0e0;
+
+  &:hover,
+  &:focus {
+    background: #aeaeae;
+  }
+}
+
+.button--outline {
+  background: transparent;
+  border: 1px solid #3d5afe;
+  color: #3d5afe;
+
+  &:hover,
+  &:focus {
+    background: rgba(41, 98, 255, 0.1);
+  }
+}
+
+.button--text {
+  background: transparent;
+  border: none;
+  color: #3d5afe;
+
+  &:hover,
+  &:focus {
+    background: rgba(41, 98, 255, 0.1);
+  }
+}
+
+.button--sm {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.button--md {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.button--lg {
+  font-size: 16px;
+  padding: 12px 24px;
+}
